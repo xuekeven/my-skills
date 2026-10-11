@@ -1,0 +1,19 @@
+{
+  "name": "efficiency-skills",
+  "version": "0.3.0",
+  "description": "提升信息采集与分析效率的 ChatGPT 和 Codex skills 集合。",
+  "author": {
+    "name": "Xuekeven"
+  },
+  "repository": "git@github.com:xuekeven/my-skills.git",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Efficiency Skills",
+    "shortDescription": "信息采集与分析效率工作流",
+    "longDescription": "按独立 skill 组织效率工具，当前提供小红书商品、品类、事件和实体评价采集与分析能力。",
+    "developerName": "Xuekeven",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "defaultPrompt": "使用 get-red-book-evaluate，按证据总结小红书对指定主题的评价。"
+  }
+}

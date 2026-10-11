@@ -1,0 +1,17 @@
+{
+  "name": "help-fix-bug",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Help Fix Bug Skill — tools for create-branch and get-link-content",
+  "packageManager": "pnpm@10.33.0",
+  "scripts": {
+    "doctor": "node tools/doctor.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "playwright": "1.52.0"
+  }
+}

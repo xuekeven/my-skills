@@ -1,0 +1,4 @@
+interface:
+  display_name: "小红书评价采集"
+  short_description: "采集小红书商品、品类、事件与实体评价并输出模式化报告"
+  default_prompt: "使用 $get-red-book-evaluate（或以 /red-book-evaluate 开头）总结小红书对某个主题的评价，并按证据给出综合分析。"

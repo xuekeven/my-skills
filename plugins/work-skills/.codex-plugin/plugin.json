@@ -1,0 +1,19 @@
+{
+  "name": "work-skills",
+  "version": "0.1.0",
+  "description": "用于软件开发、问题排查和设计还原的工作流 skills 集合。",
+  "author": {
+    "name": "Xuekeven"
+  },
+  "repository": "git@github.com:xuekeven/my-skills.git",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Work Skills",
+    "shortDescription": "开发、排错和设计还原工作流",
+    "longDescription": "按独立 skill 组织软件开发工作流，当前提供 Bug 排查修复和 Figma 页面还原能力。",
+    "developerName": "Xuekeven",
+    "category": "Developer Tools",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "defaultPrompt": "根据任务选择 help-fix-bug 或 figma-to-code，并遵循对应的工作流。"
+  }
+}

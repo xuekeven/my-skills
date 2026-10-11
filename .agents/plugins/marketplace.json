@@ -1,0 +1,32 @@
+{
+  "name": "my-skills",
+  "interface": {
+    "displayName": "My Skills"
+  },
+  "plugins": [
+    {
+      "name": "efficiency-skills",
+      "source": {
+        "source": "local",
+        "path": "./plugins/efficiency-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "work-skills",
+      "source": {
+        "source": "local",
+        "path": "./plugins/work-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+interface:
+  display_name: "需求与 Figma 到可交互代码"
+  short_description: "按需求文档生成多页交互、状态和数据联动，并验收视觉与功能"
+  default_prompt: "使用 $figma-to-code，通过 `/figma-to-code implement whole stages` 根据提供的需求文档与 Figma 设计稿实现本期交互，完成视觉与功能验收；未提供需求时按单画板还原。"
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "figma"
+      description: "用于读取结构化设计数据、截图和资产的 Figma MCP 服务"
+      transport: "streamable_http"
+      url: "https://mcp.figma.com/mcp"
